@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Reqres API Automation Suite" verbose="1" parallel="false">
+
+    <listeners>
+        <listener class-name="api.hooks.TestListener" />
+    </listeners>
+
+    <test name="User API Tests" preserve-order="true">
+        <classes>
+            <class name="api.test.UserTests" />
+        </classes>
+    </test>
+    <test name="Post API Tests" preserve-order="true">
+        <classes>
+            <class name="api.test.PostApi" />
+        </classes>
+    </test>
+</suite>
