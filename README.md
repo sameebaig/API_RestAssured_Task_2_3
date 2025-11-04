@@ -16,7 +16,7 @@ Key Features
 
 ## Project File structure
 
-"""
+```
 
 APIAutomationRestAssured/
 │
@@ -52,7 +52,7 @@ APIAutomationRestAssured/
 ├── target/                     
 └── test-output/   
 
-"""
+```
 
 ## Configuration (routes.properties)
 
@@ -64,7 +64,7 @@ updateUser=/users/{id}
 deleteUser=/users/{id}
 
 ## Tools
- Tool                                                             
+                                                           
 | ----------------------------------- 
 | **Java**                           
 | **Rest Assured** (API testing framework)           
