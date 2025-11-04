@@ -16,7 +16,8 @@ Key Features
 
 ## Project File structure
 
-'''
+"""
+
 APIAutomationRestAssured/
 │
 ├── pom.xml
@@ -49,8 +50,9 @@ APIAutomationRestAssured/
 │
 ├── reports/                     
 ├── target/                     
-└── test-output/                
-'''
+└── test-output/   
+
+"""
 
 ## Configuration (routes.properties)
 
